@@ -33,9 +33,10 @@
     "uuid": "f5df8f0e-73f2-45b7-aa60-b1d012cfd3ae"
   },
   "engines": {
-    "node": ">=10.0.0",
+    "node": "12.0.0",
     "npm": ">=6.0.0"
   },
   "license": "MIT",
-  "main": "index.js"
+  "main": "index.js",
+  "repository": "https://github.com/luiscostalafc/api_strapi.git"
 }
