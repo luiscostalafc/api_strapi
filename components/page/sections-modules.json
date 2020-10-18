@@ -8,13 +8,13 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "modules": {
       "type": "component",
       "repeatable": true,
       "component": "page.modules",
-      "required": true,
+      "required": false,
       "min": 2
     }
   }

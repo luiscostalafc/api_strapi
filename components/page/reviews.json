@@ -10,13 +10,15 @@
       "type": "string"
     },
     "text": {
-      "type": "string"
+      "type": "richtext"
     },
     "photo": {
-      "model": "file",
+      "collection": "file",
       "via": "related",
       "allowedTypes": [
-        "images"
+        "images",
+        "files",
+        "videos"
       ],
       "plugin": "upload",
       "required": false

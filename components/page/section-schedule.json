@@ -8,11 +8,11 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "richtext",
-      "required": true
+      "required": false
     }
   }
 }

@@ -16,13 +16,13 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true
+      "required": false
     },
     "header": {
       "type": "component",
       "repeatable": false,
       "component": "page.header",
-      "required": true
+      "required": false
     },
     "sectionAboutProject": {
       "type": "component",
@@ -43,13 +43,13 @@
       "type": "component",
       "repeatable": false,
       "component": "page.sections-modules",
-      "required": true
+      "required": false
     },
     "sectionSchedule": {
       "type": "component",
       "repeatable": false,
       "component": "page.section-schedule",
-      "required": true
+      "required": false
     },
     "sectionAboutUs": {
       "type": "component",
@@ -70,6 +70,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-faq"
+    },
+    "sectionSlider": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-reviews"
     }
   }
 }

@@ -9,7 +9,7 @@
     "label": {
       "type": "string",
       "default": "Comprar",
-      "required": true,
+      "required": false,
       "maxLength": 20
     },
     "url": {

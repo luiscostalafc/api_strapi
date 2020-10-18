@@ -8,15 +8,15 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "subtitle": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "richtext",
-      "required": true
+      "required": false
     }
   }
 }
